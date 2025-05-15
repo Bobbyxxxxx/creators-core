@@ -1,0 +1,38 @@
+.slider-wrapper {
+      position: relative;
+      width: 100vw;
+      height: 55vh;
+      overflow: hidden;
+    }
+
+    .slider {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .slide {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      border-radius: 16px;
+      overflow: hidden;
+      top: 35%;
+      transform: translate(-50%, -50%);
+      pointer-events: auto;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .slide:hover {
+      transform: translate(-50%, -50%) scale(2) !important;
+      z-index: 999 !important;
+      box-shadow: 0 0 25px #00f2ff;
+    }

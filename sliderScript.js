@@ -4,10 +4,12 @@
     const slides = [];
 
     const imageUrls = [
-      'https://picsum.photos/id/1015/300/300',
-      'https://picsum.photos/id/1025/300/300',
-      'https://picsum.photos/id/1035/300/300',
-      'https://picsum.photos/id/1045/300/300'
+      "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-1.jpg",
+      "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-2.jpg",
+      "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-3.jpg",
+      "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-4.jpg",
+      "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-5.jpg",
+      "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-6.jpg",
     ];
 
     const screenWidth = window.innerWidth;

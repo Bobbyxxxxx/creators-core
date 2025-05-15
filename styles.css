@@ -133,6 +133,10 @@ footer {
   box-shadow: 0 0 12px rgba(99, 102, 241, 0.6);
 }
 
+.secondBtn{
+  text-align: center;
+}
+
 
 /* step animmation */
 .step {

@@ -9,7 +9,7 @@
       "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-3.jpg",
       "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-4.jpg",
       "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-5.jpg",
-      "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-6.jpg",
+      "https://raw.githubusercontent.com/Bobbyxxxxx/creators-core/main/images/sneakPeaks/sneakPeak-6.jpg"
     ];
 
     const screenWidth = window.innerWidth;

@@ -15,11 +15,15 @@ body {
 
 nav {
   display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 4rem;
   justify-content: space-between;
   padding: 1rem 2rem;
   align-items: center;
   /* background: #16161a; */
   background: linear-gradient(135deg, #16161a 20%, #7f5af0 50%, #16161a 90%);;
+  z-index: 10;
 }
 
 .nav-links a {
@@ -38,13 +42,13 @@ nav {
 }
 
 .logo{
-  height: 4.5rem;
+  height: 3rem;
   border-radius: 50%;
 }
 
 .hero {
   text-align: center;
-  padding: 4rem 1rem 3rem 1rem;
+  padding: 7.5rem 1rem 3rem 1rem;
   background: linear-gradient(135deg, #16161a 0%, #7f5af0 100%);
   min-height: 62vh;
 

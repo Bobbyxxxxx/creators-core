@@ -3,6 +3,7 @@
  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: 'Space Grotesk', sans-serif;
@@ -46,7 +47,7 @@ nav {
 .hero-step{
   text-align: center;
   max-width: 250px;
-  width: 22rem;
+  width: 15rem;
   height: 12rem;
   padding: 5px;
   background:  linear-gradient(135deg, #16161a 0%, #7f5af0 100%);

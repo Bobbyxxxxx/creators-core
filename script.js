@@ -9,3 +9,14 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 steps.forEach(step => observer.observe(step));
+
+
+// toggle
+  const toggleBtn = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+
+ 

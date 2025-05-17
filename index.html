@@ -109,18 +109,35 @@
         </div>
     </div>
     <div class="secondBtn">
-      <a href="https://twitter.com/Creators_Core" target="_blank" class="btn">Start a Partnership</a>
+      <a href="https://twitter.com/Creators_Core" target="_blank" class="btn">Get In Touch</a>
     </div>
 
   </section>
 
   <!-- Contact -->
-  <section class="twitter-feed">
-    <h2>Contact Us</h2>
-    <div id="tweets">
-      <!-- Fetched via script.js -->
+  <section class="contact-section">
+    <div class="contact-section-heading">
+      <h2>Contact Us</h2>
       <p>Want to make enquiries, questions or ideas?</p>
-      <div class="socials">
+    </div>
+     <div class="form-div">
+      <form action="/">
+        <label for="social">X/Discord/Telegram</label>
+        <input type="text" name="social" placeholder="@username">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Project's Name">
+        <label for="email">Website</label>
+        <input type="text" name="email" placeholder="www.example.com">
+        <label for="message">Message</label>
+        <textarea type="text" name="message" placeholder="Your message here"></textarea>
+        <button class="form-btn">Send</button>
+    </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+     <div class="socials">
         <a target="_blank" href="https://x.com/Creators_Core" class="social-link">
         <i class="fa-brands fa-square-x-twitter icons"></i>
         </a>
@@ -128,11 +145,6 @@
          <i class="fa-brands fa-telegram icons"></i>
         </a>
     </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
     <p>© 2025 Creators Core DAO. All Rights Reserved.</p>
   </footer>
 

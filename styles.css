@@ -219,10 +219,6 @@ footer {
   transition: box-shadow 0.3s ease;
 }
 
-.btn-primary {
-  background: #ff8906;
-}
-
 .btn:hover {
   box-shadow: 0 0 12px rgba(99, 102, 241, 0.6);
 }
